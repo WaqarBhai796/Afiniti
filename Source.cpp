@@ -17,13 +17,6 @@ public:
 
 int main()
 {
-    string link1= "https://www.google.com/search?q=images&tbm=isch&ved=2ahUKEwj_8ubMiffwAhUO8hoKHRDIDK8Q2-cCegQIABAA&oq=images&gs_lcp=CgNpbWcQA1CZ8aQBWIH5pAFgufqkAWgAcAB4AYABAIgBAJIBAJgBBqABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=1X22YL-0OY7ka5CQs_gK&bih=600&biw=1366#imgrc=2eIb5BjhQiiZzM";
-    //cout << "Image Downloaded" << endl;
-
-    string link2 = "https://www.google.com/search?q=images&tbm=isch&ved=2ahUKEwj_8ubMiffwAhUO8hoKHRDIDK8Q2-cCegQIABAA&oq=images&gs_lcp=CgNpbWcQA1CZ8aQBWIH5pAFgufqkAWgAcAB4AYABAIgBAJIBAJgBBqABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=1X22YL-0OY7ka5CQs_gK&bih=600&biw=1366#imgrc=2eIb5BjhQiiZzM";
-
-    string link3= "https://www.google.com/search?q=images&tbm=isch&ved=2ahUKEwj_8ubMiffwAhUO8hoKHRDIDK8Q2-cCegQIABAA&oq=images&gs_lcp=CgNpbWcQA1CZ8aQBWIH5pAFgufqkAWgAcAB4AYABAIgBAJIBAJgBBqABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=1X22YL-0OY7ka5CQs_gK&bih=600&biw=1366#imgrc=2eIb5BjhQiiZzM";
-
     thread t1((Fctor()),"1");
     thread t2((Fctor()), "2");
     thread t3((Fctor()), "3");
